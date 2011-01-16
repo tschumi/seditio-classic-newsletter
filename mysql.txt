@@ -1,0 +1,8 @@
+CREATE TABLE `sed_newsletter` (
+`nletter_id` INT( 11 ) NOT NULL AUTO_INCREMENT ,
+`nletter_email` VARCHAR( 64 ) NOT NULL ,
+`nletter_date` INT( 11 ) NOT NULL ,
+`nletter_activation` VARCHAR( 32 ) NOT NULL ,
+`nletter_active` TINYINT DEFAULT '0' NOT NULL ,
+PRIMARY KEY ( `nletter_id` ) 
+);
